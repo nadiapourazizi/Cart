@@ -2,7 +2,7 @@
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-- [Demo Project](https://nadiapourazizi.github.io/bank_template/)
+- [Demo Project](https://nadiapourazizi.github.io/Cart/)
 
 -🙂 Developed by nadia pourazizi
 - Created - 2022-11-26
