@@ -1,0 +1,137 @@
+#body {
+  background-color: #f1f5f8;
+  position: relative;
+  overflow-x: hidden;
+}
+#body #parent {
+  width: 100%;
+  height: 215vh;
+}
+#body #parent #parent_div1_1 {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+#body #parent #parent_div1_1 input {
+  width: 200px;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.76);
+}
+#body #parent #parent_div1_1 input:focus {
+  border-color: rgba(202, 155, 84, 0.8705882353);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(197, 144, 64, 0.25);
+}
+#body #parent #parent_div1_2 {
+  position: relative;
+}
+#body #parent #parent_div1_2::after {
+  position: absolute;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 5px;
+  background-color: #c59d5f;
+  left: 150px;
+}
+#body #parent #parent_div1_2 h1 {
+  font-size: 45px;
+}
+#body #parent #parent_div1_3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#body #parent #parent_div1_3 span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: gray;
+  transition: 0.2s;
+}
+#body #parent #parent_div1_3 span:hover {
+  color: black;
+  cursor: pointer;
+}
+#body #parent #parent_div2 ul {
+  list-style: none;
+}
+#body #parent #parent_div2 ul li {
+  padding: 0 20px;
+  font-size: 19px;
+  cursor: pointer;
+  color: #c59d5f;
+  border-top: 2px solid #c59d5f;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid #c59d5f;
+  margin: 0 7px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+#body #parent #parent_div2 ul li:hover {
+  background-color: #c59d5f;
+  color: white;
+}
+#body #parent #parent_section1 {
+  margin: 25px 0;
+}
+#body #parent #parent_section1 .parent_div3 {
+  margin-bottom: 28px;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_1 img {
+  border: 3px solid #c59d5f;
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 {
+  padding-top: 15px;
+  padding-left: 9px;
+  margin-right: 12px;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 h6 {
+  font-size: 18px;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 span {
+  font-size: 17px;
+  color: #c59d5f;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 p {
+  color: hsl(210deg, 21%, 50%);
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 button {
+  width: 140px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.815);
+  color: rgba(255, 255, 255, 0.959);
+  border: 3px dashed black;
+  transition: 0.5s;
+}
+#body #parent #parent_section1 .parent_div3 .parent_div3_2 button:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+  border: 3px dashed #c59d5f;
+}
+#body #outdiv {
+  width: 350px;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.932);
+  border: 1px dashed black;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: -48px;
+  right: -470px;
+}
+#body #outdiv #outdiv_span {
+  cursor: pointer;
+}
+#body #outdiv #div_span1 {
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
